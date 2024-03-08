@@ -32,7 +32,7 @@
   
   #navbar__logo {
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-image: linear-gradient(to top, #004225 0%, #739072 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -63,7 +63,7 @@
   }
   
   .navbar__links {
-    color: #fff;
+    color: #004225;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,7 +101,7 @@
   }
   
   .navbar__links:hover {
-    color: #f77062;
+    color: #000000;
     transition: all 0.3s ease;
   }
   
@@ -135,12 +135,24 @@
       opacity: 1;
       transition: all 0.5s ease;
       z-index: 99;
-      height: 50vh;
+      height: 70vh;
       font-size: 1.6rem;
+    }
+
+    .navbar__links:hover {
+      color: #004225;
+      transition: all 0.3s ease;
     }
   
     #navbar__logo {
-      padding-left: 25px;
+      margin-left:30px ;
+
+    }
+    
+    .navlogo{
+      position: fixed;
+      top: 20px;
+      
     }
   
     .navbar__toggle .bar {
@@ -148,7 +160,7 @@
       height: 3px;
       margin: 5px auto;
       transition: all 0.3s ease-in-out;
-      background: #fff;
+      background: #004225;
     }
   
     .navbar__item {
@@ -160,6 +172,7 @@
       padding: 2rem;
       width: 100%;
       display: table;
+      color: #fff;
     }
   
     .navbar__btn {
@@ -199,3 +212,21 @@
       transform: translateY(-8px) rotate(-45deg);
     }
   }
+
+/* WeAreGettingMarried */
+.married{
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 28px;
+  
+}
+.marriedsection{
+  margin: auto;
+  width: 100%;
+  padding: 100px;
+ text-align: center;
+}
+
+.names{
+  font-family: "Parisienne", sans-serif;
+  font-size: 42px;
+}
